@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login{
+    background-color: goldenrod;
+    height: 70%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login button{
+
+     background-color: white;
+}
+
+.login input{
+
+    margin: 10px;
+
+}
+.login h2{
+    margin-bottom: -10px;
+}
+
+.login p{
+    margin-bottom: -5px;
+}
